@@ -25,5 +25,6 @@ public class HelloWorldSpringApp {
         model.addAttribute("message","Hello from BridgeLabz");
         return "message";
     }
+    
 
 }
