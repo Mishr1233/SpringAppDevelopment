@@ -32,4 +32,9 @@ public class HelloWorldSpringApp {
         return "Hello from BridgeLabz";
     }
 
+    @GetMapping("/hello")
+    public String hey() {
+        return "Hello World";
+    }
+
 }
