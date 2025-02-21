@@ -26,4 +26,9 @@ public class HelloWorldSpringApp {
         return "message";
     }
 
+    @GetMapping("/api")
+    public String hii() {
+        return "Hello from BridgeLabz";
+    }
+
 }
